@@ -1,0 +1,8 @@
+El proyecto incluye 
+el ABM de las entidades de Usuario, Billetera, Divisa y Saldo 
+y la asignacion de sus relaciones entre ellas.
+Usuario 1..* Billeteras
+Billetera 1..* Saldos
+Saldo *..1 Billetera
+Saldo *..1 Divisa
+Divisa 1..* Saldos
